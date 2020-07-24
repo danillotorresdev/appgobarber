@@ -40,7 +40,7 @@ interface ProfileFormData {
 const Profile: React.FC = () => {
   const { user, updateUser } = useAuth();
 
-  const formRef = useRef<FormHandles | undefined>(null);
+  const formRef = useRef<FormHandles>(null);
   const emailInputRef = useRef<TextInput>(null);
   const passwordInputRef = useRef<TextInput>(null);
   const oldPasswordInputRef = useRef<TextInput>(null);
@@ -178,7 +178,7 @@ const Profile: React.FC = () => {
                 source={{
                   uri:
                     user.avatar_url ||
-                    'https://api.adorable.io/avatars/186/abott@adorable.png',
+                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtxMUACtS4zR6LC1klE94H1KxxuN3rnaKhjcJ9Y5nneltmzgjr&s',
                 }}
               />
             </UserAvatarButton>

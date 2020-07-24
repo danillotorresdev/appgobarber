@@ -163,7 +163,7 @@ const CreateAppointment: React.FC = () => {
           source={{
             uri:
               user.avatar_url ||
-              'https://api.adorable.io/avatars/56/abott@adorable.png',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtxMUACtS4zR6LC1klE94H1KxxuN3rnaKhjcJ9Y5nneltmzgjr&s',
           }}
         />
       </Header>
@@ -184,7 +184,7 @@ const CreateAppointment: React.FC = () => {
                   source={{
                     uri:
                       provider.avatar_url ||
-                      'https://api.adorable.io/avatars/32/abott@adorable.png',
+                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtxMUACtS4zR6LC1klE94H1KxxuN3rnaKhjcJ9Y5nneltmzgjr&s',
                   }}
                 />
                 <ProviderName selected={provider.id === selectedProvider}>
